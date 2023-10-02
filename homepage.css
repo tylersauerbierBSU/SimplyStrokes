@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* top bar div */ 
+.top-bar {
+    background-color: #359b55;
+    font-family: bradley hand, cursive;
+    color: #000000;
+    padding: 1em;
+    font-size: 150%
+}
+
+section {
+    margin: 1em;
+}
+
+
+.nav-bar{
+    overflow: hidden;
+}
+
+.nav-bar a{
+    float:center;
+    color: black;
+    text-align: center;
+    padding: 2%;
+    font-size: 100%;
+}
+
+/* Change the color on links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active or current link*/
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.section-intro {
+
+    text-align:left;
+    margin: 1%;
+    padding: 2%;
+}
+
+.small-image {
+    float:left;
+    width: 2500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+  

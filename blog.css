@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* top bar div */ 
+.top-bar {
+    background-color: #359b55;
+    font-family: bradley hand, cursive;
+    color: #000000;
+    padding: 1em;
+    font-size: 150%
+}
+
+section {
+    margin: 1em;
+}
+
+
+.nav-bar{
+    overflow: hidden;
+}
+
+.nav-bar a{
+    float:center;
+    color: black;
+    text-align: center;
+    padding: 2%;
+    font-size: 100%;
+}
+
+/* Change the color on links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active or current link*/
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.post {
+
+    text-align:left;
+
+}
+
+.blog-post-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin:3%;
+
+}
+
+.blog-image {                       /* Could use pixels so image doesnt stretch / compress */
+    max-width: 10%;                 /* Adjust the width as needed */
+    margin-right: 3%;               /* Adjust the spacing between image and content */
+}
+
+.blog-post-content {
+    text-align: left;
+    max-width: 85%;                 /* Adjust the maximum width of the content */
+}

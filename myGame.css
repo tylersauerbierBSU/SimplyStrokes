@@ -1,0 +1,81 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.99em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Some basic styling for the table */
+
+
+th, td {
+    border: 3px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #359b55;
+}
+
+
+/* nav bar */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #359b55;
+    font-family: bradley hand, cursive;
+    color: #000000;
+    padding: 1em;
+    font-size: 150%
+}
+
+section {
+    margin: 1em;
+}
+
+
+.nav-bar{
+    overflow: hidden;
+}
+
+.nav-bar a{
+    float:center;
+    color: black;
+    text-align: center;
+    padding: 2%;
+    font-size: 100%;
+}
+
+/* Change the color on links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active or current link*/
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.addACourse {
+    
+    text-align: center;
+}
