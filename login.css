@@ -52,6 +52,41 @@ section {
     padding: 2%;
 }
 
+/* /////////////////////////////////////////////////////// */
+
+.form-block {
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+#login_form {
+    padding: 20px 20px 20px 20px;
+}
+
+#submit_box input[type="submit"] {
+    width: 75px;
+    height: 30px;
+    font-size: 18px;
+}
+
+/* Error messages */
+.message {
+    padding: 10px 10px;
+    color: black;
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.good {
+    background-color: limegreen;
+}
+
+.bad {
+    background-color: red;
+}
+
 
 
   
