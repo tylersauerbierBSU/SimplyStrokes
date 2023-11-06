@@ -1,4 +1,3 @@
-<!-- REVIEW.HTML references blog.css style sheets. They are simlar pages with different functionality -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/images/favicon-2.png" type="image/png">
-    <title>Review</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="blog.css">
-    <line rel="stylesheet2" href="homepage.css">
+    <link rel="stylesheet2" href="homepage.css">
 </head>
 
 <body>
@@ -19,12 +18,12 @@
 
     <br>
     <div class="nav-bar">
-        <a href="/homepage.html">Home</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/Review.html">Reivew</a>
-        <a href="/myGame.html">My Game</a>
-        <a href="/Groups.html">Groups</a>
-        <a href="/login.php">Login</a>
+        <a href="/homepage.php">Home</a>
+        <a href="/blog.php">Blog</a>
+        <a href="/Review.php">Reivew</a>
+        <a href="/myGame.php">My Game</a>
+        <a href="/Groups.php">Groups</a>
+        <a href="/logout.php">Logout</a>
     </div>
 
     <!-- This is a line break to give the page a little bit of space -->
@@ -32,10 +31,9 @@
     <br>
 
 <div class="blog-post-container">
-    <img src="path/to/your-image.jpg" alt="Review Post Image" class="blog-image">
+    <img src="path/to/your-image.jpg" alt="Blog Post Image" class="blog-image">
     <div class="blog-post-content">
-        <h2>Course Played</h2>
-        <h3> Rating 8.3/10</h3>
+        <h2>Blog Post 1</h2>
         <p class="meta">Published on September 29, 202</p>
 
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -50,10 +48,9 @@
 </div>
 
 <div class="blog-post-container">
-    <img src="path/to/your-image.jpg" alt="Review Post Image" class="blog-image">
+    <img src="path/to/your-image.jpg" alt="Blog Post Image" class="blog-image">
     <div class="blog-post-content">
-        <h2>Course Played</h2>
-        <h3> Rating 8.3/10</h3>
+        <h2>Blog Post 2</h2>
         <p class="meta">Published on September 29, 202</p>
 
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -68,10 +65,9 @@
 </div>
 
 <div class="blog-post-container">
-    <img src="path/to/your-image.jpg" alt="Reivew Post Image" class="blog-image">
+    <img src="path/to/your-image.jpg" alt="Blog Post Image" class="blog-image">
     <div class="blog-post-content">
-        <h2>Course Played</h2>
-        <h3> Rating 8.3/10</h3>
+        <h2>Blog Post 3</h2>
         <p class="meta">Published on September 29, 202</p>
 
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -86,10 +82,9 @@
 </div>
 
 <div class="blog-post-container">
-    <img src="path/to/your-image.jpg" alt="Reivew Post Image" class="blog-image">
+    <img src="path/to/your-image.jpg" alt="Blog Post Image" class="blog-image">
     <div class="blog-post-content">
-        <h2>Course Played</h2>
-        <h3> Rating 8.3/10</h3>
+        <h2>Blog Post 4</h2>
         <p class="meta">Published on September 29, 202</p>
 
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -110,3 +105,4 @@
 </footer>
 
 </html>
+

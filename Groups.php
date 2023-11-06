@@ -18,12 +18,12 @@
 
     <br>
     <div class="nav-bar">
-        <a href="/homepage.html">Home</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/Review.html">Reivew</a>
-        <a href="/myGame.html">My Game</a>
-        <a href="/Groups.html">Groups</a>
-        <a href="/login.php">Login</a>
+        <a href="/homepage.php">Home</a>
+        <a href="/blog.php">Blog</a>
+        <a href="/Review.php">Reivew</a>
+        <a href="/myGame.php">My Game</a>
+        <a href="/Groups.php">Groups</a>
+        <a href="/logout.php">Logout</a>
     </div>
 
     <!-- This is a line break to give the page a little bit of space -->

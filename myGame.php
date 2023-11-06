@@ -18,12 +18,12 @@
 
     <br>
     <div class="nav-bar">
-        <a href="/homepage.html">Home</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/Review.html">Reivew</a>
-        <a href="/myGame.html">My Game</a>
-        <a href="/Groups.html">Groups</a>
-        <a href="/index.php">Login</a>
+        <a href="/homepage.php">Home</a>
+        <a href="/blog.php">Blog</a>
+        <a href="/Review.php">Reivew</a>
+        <a href="/myGame.php">My Game</a>
+        <a href="/Groups.php">Groups</a>
+        <a href="/logout.php">Logout</a>
     </div>
 
     <!-- This is a line break to give the page a little bit of space -->
@@ -82,6 +82,31 @@
 
     </tbody>
 </table>
+
+<div class="add-score-form">
+        <h2>Add a New Score</h2>
+        <form action="myGame-handler.php" method="post">
+            <label for="course_name">Course Name:</label>
+            <input type="text" id="course_name" name="course_name" required>
+
+            <label for="play_date">Date:</label>
+            <input type="date" id="play_date" name="play_date" required>
+
+            <label for="holes_played">Holes Played:</label>
+            <input type="number" id="holes_played" name="holes_played" required>
+
+            <label for="score">Score:</label>
+            <input type="number" id="score" name="score" required>
+
+            <label for="putts">Putts:</label>
+            <input type="number" id="putts" name="putts" required>
+
+            <label for="misc_info">Miscellaneous:</label>
+            <textarea id="misc_info" name="misc_info"></textarea>
+
+            <input type="submit" value="Add Score">
+        </form>
+    </div>
 
 <span class="addACourse"><p> + add a score </p></span>
 

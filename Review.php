@@ -1,50 +1,42 @@
+<!-- REVIEW.HTML references blog.css style sheets. They are simlar pages with different functionality -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimplyStrokes</title>
     <link rel="icon" href="/images/favicon-2.png" type="image/png">
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet2" href="homepage.css">
+    <title>Review</title>
+    <link rel="stylesheet" href="blog.css">
+    <line rel="stylesheet2" href="homepage.css">
 </head>
+
 <body>
     <div class="top-bar">
         <h1>Simply Strokes</h1>
         <img class="small-image" src="/images/logo silhouette Background Removed.png" alt="silhouette of a golfer">
     </div>
 
-    <section>
-        <h2>Welcome to Simply Strokes! You can track all your golfing statistics and see how others matchup against you.</h2>
-    </section>
-
     <br>
     <div class="nav-bar">
-        <a href="/homepage.html">Home</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/Review.html">Reivew</a>
-        <a href="/myGame.html">My Game</a>
-        <a href="/Groups.html">Groups</a>
-        <a href="/login.php">Login</a>
+        <a href="/homepage.php">Home</a>
+        <a href="/blog.php">Blog</a>
+        <a href="/Review.php">Reivew</a>
+        <a href="/myGame.php">My Game</a>
+        <a href="/Groups.php">Groups</a>
+        <a href="/logout.php">Logout</a>
     </div>
-    
 
     <!-- This is a line break to give the page a little bit of space -->
     <br>
     <br>
 
-    <div class="section-intro"> 
-        <h2> Blog </h2>
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
-            of Lorem Ipsum
-        </p>
-        <br>
-        
-        <h2> Review </h2>
+<div class="blog-post-container">
+    <img src="path/to/your-image.jpg" alt="Review Post Image" class="blog-image">
+    <div class="blog-post-content">
+        <h2>Course Played</h2>
+        <h3> Rating 8.3/10</h3>
+        <p class="meta">Published on September 29, 202</p>
 
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
@@ -53,42 +45,68 @@
             Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
             of Lorem Ipsum
         </p>
-        <br>
-
-        <h2> My Game </h2>
-
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
-            of Lorem Ipsum
-        </p>
-        <br>
-
-        <h2> Groups </h2>
-
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
-            of Lorem Ipsum
-        </p>
-        <br>
-
 
     </div>
+</div>
 
-    
+<div class="blog-post-container">
+    <img src="path/to/your-image.jpg" alt="Review Post Image" class="blog-image">
+    <div class="blog-post-content">
+        <h2>Course Played</h2>
+        <h3> Rating 8.3/10</h3>
+        <p class="meta">Published on September 29, 202</p>
 
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+            of Lorem Ipsum
+        </p>
 
+    </div>
+</div>
 
+<div class="blog-post-container">
+    <img src="path/to/your-image.jpg" alt="Reivew Post Image" class="blog-image">
+    <div class="blog-post-content">
+        <h2>Course Played</h2>
+        <h3> Rating 8.3/10</h3>
+        <p class="meta">Published on September 29, 202</p>
 
-    
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+            of Lorem Ipsum
+        </p>
 
-    <footer>
-        <p>&copy; 2023 Your Homepage. All rights reserved.</p>
-    </footer>
+    </div>
+</div>
+
+<div class="blog-post-container">
+    <img src="path/to/your-image.jpg" alt="Reivew Post Image" class="blog-image">
+    <div class="blog-post-content">
+        <h2>Course Played</h2>
+        <h3> Rating 8.3/10</h3>
+        <p class="meta">Published on September 29, 202</p>
+
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+            of Lorem Ipsum
+        </p>
+
+    </div>
+</div>
+
 </body>
+
+<footer>
+    <p>&copy; 2023 Your Homepage. All rights reserved.</p>
+</footer>
+
 </html>

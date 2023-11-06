@@ -15,17 +15,15 @@ CREATE TABLE user (
 /*************/
 
 /* Table for managing users score for myGame */
-CREATE TABLE golf_stats (
-  stat_id INT AUTO_INCREMENT PRIMARY KEY,
-  course_name VARCHAR(100) NOT NULL,
-  play_date DATE NOT NULL,
-  holes_played INT NOT NULL,
-  score INT NOT NULL,
-  putts INT NOT NULL,
-  misc_info TEXT,
-  user_id INT, --want to associate stats with a user
-  FOREIGN KEY (user_id) REFERENCES user(user_id) -- Reference to the User Table
-);
+CREATE TABLE `my_game` (
+  `stat_id` int NOT NULL AUTO_INCREMENT,
+  `course_name` varchar(100) NOT NULL,
+  `play_date` datetime NOT NULL,
+  `holes_played` int NOT NULL,
+  `total_strokes` int NOT NULL,
+  `conditions` varchar(120) DEFAULT NULL,
+  PRIMARY KEY (`stat_id`)
+)
 
 CREATE TABLE user_golf_stats (
   user_stat_id INT AUTO_INCREMENT PRIMARY KEY,
