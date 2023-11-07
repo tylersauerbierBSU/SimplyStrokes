@@ -1,5 +1,24 @@
-<!-- REVIEW.HTML references blog.css style sheets. They are simlar pages with different functionality -->
-<!DOCTYPE html>
+<?php require_once("login-nav.php");
+session_start();
+require_once 'DAO.php';
+$dao = new DAO();
+
+if(!isset($_SESSION['authenticated'])) {
+    header('Location: login.php');
+    exit;
+}
+
+if ($_SESSION['authenticated']) {
+    // The user is authenticated, fetch their first name
+    if (isset($_SESSION['user_id'])) {
+        $user_id = $_SESSION['user_id'];
+        $user = $dao->getUserInfo($user_id);
+        $userFirstName = $user['first_name'];
+    }
+}
+
+>?
+
 <html lang="en">
 
 <head>

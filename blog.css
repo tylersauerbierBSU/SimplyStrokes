@@ -51,7 +51,7 @@ section {
 
 }
 
-.blog-post-container {
+.blog-post-container { 
     display: flex;
     align-items: left;
     justify-content: left;

@@ -5,12 +5,11 @@ class DAO {
     private $db = "t02zrwec8uligtiz";
     private $user = "ur7u2fizxl1yddgf";
     private $passwd = "kg3weuxpajryv0ge";
-    private $stat_id;
 
     public function getConnection () {
         return
             new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user,
-                $this->passwd);
+                $this->passwd); 
     }
 
     public function isUsernameTaken($username) {
