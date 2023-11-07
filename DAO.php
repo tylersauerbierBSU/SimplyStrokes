@@ -90,5 +90,20 @@ class DAO {
 
         $stmt->execute();
     }
+
+    public function addReview($course_name, $date_played, $date_published, $rating, $description) {
+        $conn = $this->getConnection();
+        $saveQuery = "INSERT INTO reviews 
+                      (course_name, date_played, date_published, rating, description) 
+                      VALUES (:course_name, :date_played, :date_published, :rating, :description)";
+        $stmt = $conn->prepare($saveQuery);
+        $stmt->bindParam(":course_name", $course_name);
+        $stmt->bindParam(":date_played", $date_played);
+        $stmt->bindParam(":date_published", $date_published);
+        $stmt->bindParam(":rating", $rating);
+        $stmt->bindParam(":description", $description);
+
+        $stmt->execute();
+    }
     
 }

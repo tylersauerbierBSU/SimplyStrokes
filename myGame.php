@@ -49,7 +49,7 @@
             <td>18</td>
             <td>32</td>
             <td>98</td>
-            <td>Windy dat</td>
+            <td>Windy day</td>
         </tr>
         
         <tr>
@@ -107,11 +107,11 @@
         </form>
     </div>
 
-<span class="addACourse"><p> + add a score </p></span>
+
 
 <br>
 
-<h2>This is how you have been playing, Tyler</h2>
+<!-- <h2>This is how you have been playing, Tyler</h2>
 
 <table class="styled-table">
     <thead>
@@ -133,7 +133,7 @@
         </tr>
 
     </tbody>
-</table>
+</table> -->
 
 
 
