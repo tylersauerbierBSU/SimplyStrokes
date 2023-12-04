@@ -7,64 +7,65 @@ body {
     text-align: center;
 }
 
-/* top bar div */ 
+/* top bar div */
 .top-bar {
     background-color: #359b55;
     font-family: bradley hand, cursive;
     color: #000000;
     padding: 1em;
-    font-size: 150%
+    font-size: 150%;
 }
 
 section {
     margin: 1em;
 }
 
-
-.nav-bar{
+.nav-bar {
     overflow: hidden;
 }
 
-.nav-bar a{
-    float:center;
+.nav-bar a {
+    float: center;
     color: black;
     text-align: center;
     padding: 2%;
     font-size: 100%;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
 }
 
 /* Change the color on links on hover */
-.topnav a:hover {
+.nav-bar a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active or current link*/
-.topnav a.active {
+/* Add a color to the active or current link */
+.nav-bar a.active {
     background-color: #04AA6D;
     color: white;
 }
 
 .post {
-
-    text-align:left;
-
+    text-align: left;
 }
 
-.blog-post-container { 
+.blog-post-container {
     display: flex;
     align-items: left;
     justify-content: left;
-    margin:3%;
-
+    margin: 3%;
 }
 
-.blog-image {                       /* Could use pixels so image doesnt stretch / compress */
-    max-width: 10%;                 /* Adjust the width as needed */
-    margin-right: 3%;               /* Adjust the spacing between image and content */
+.blog-image {
+    max-width: 10%;
+    margin-right: 3%;
 }
 
 .blog-post-content {
     text-align: left;
-    max-width: 85%;                 /* Adjust the maximum width of the content */
+    max-width: 85%;
 }

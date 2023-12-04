@@ -17,12 +17,12 @@
 
     <br>
     <div class="nav-bar">
-        <a href="/homepage.php">Home</a>
-        <a href="/blog.php">Blog</a>
-        <a href="/Review.php">Reivew</a>
-        <a href="/myGame.php">My Game</a>
-        <a href="/Groups.php">Groups</a>
-        <a href="/logout.php">Logout</a>
+        <a <?php if(basename($_SERVER['PHP_SELF']) == 'homepage.php') echo 'class="active"'; ?> href="/homepage.php">Home</a>
+        <a <?php if(basename($_SERVER['PHP_SELF']) == 'blog.php') echo 'class="active"'; ?> href="/blog.php">Blog</a>
+        <a <?php if(basename($_SERVER['PHP_SELF']) == 'Review.php') echo 'class="active"'; ?> href="/Review.php">Reivew</a>
+        <a <?php if(basename($_SERVER['PHP_SELF']) == 'myGame.php') echo 'class="active"'; ?> href="/myGame.php">My Game</a>
+        <a <?php if(basename($_SERVER['PHP_SELF']) == 'Groups.php') echo 'class="active"'; ?> href="/Groups.php">Groups</a>
+        <a <?php if(basename($_SERVER['PHP_SELF']) == 'logout.php') echo 'class="active"'; ?> href="/logout.php">Logout</a>
     </div>
 
     <!-- This is a line break to give the page a little bit of space -->
