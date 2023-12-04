@@ -7,6 +7,15 @@ session_start();
     
     <head>
         <link rel="stylesheet" href="login.css">
+        <!-- Include jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script>
+            // jQuery script for fading effect
+            $(document).ready(function () {
+            // Fade in the form-block
+            $(".form-block").fadeIn("slow");
+        });
+    </script>
     </head>
 
     <body>
